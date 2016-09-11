@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     onPickImage();
                 }else{
                     Toast.makeText(view.getContext(),""+Build.VERSION.SDK_INT,Toast.LENGTH_LONG).show();
-                    onPickImage();
-                }
+                    onPickImage();                }
 
             }
         });
